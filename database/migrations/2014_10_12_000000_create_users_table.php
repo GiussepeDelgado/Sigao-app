@@ -22,6 +22,7 @@ return new class extends Migration
             $table->string('dni')->nullable();
             $table->string('phone')->nullable();
             $table->string('status')->nullable();
+            $table->string('photo_url')->nullable();
             $table->timestamp('email_verified_at')->nullable();
             $table->rememberToken();
             $table->timestamps();
